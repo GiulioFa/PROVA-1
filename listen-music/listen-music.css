@@ -1,0 +1,131 @@
+html, body {     
+  margin: 0px;
+  padding: 0px;
+  height: 100%;
+} 
+
+body {
+    background-color: rgb(37, 37, 37);
+    font-family: "Roboto";
+    font-weight: 300;
+    
+}
+
+.wrapper {
+  min-height: 100%;
+  position: relative;
+}
+.titolo {
+    color: grey;
+    font-weight: 400;
+    font-size: 50px;
+    text-align: center;
+}
+
+.semi-titolo {
+  color: grey;
+  font-weight: 300;
+  font-size: 30px;
+  text-align: center;
+}
+
+.main {
+  padding-bottom: 200px; 
+}
+
+.logo {
+    width: 15%;
+    display: block;
+    margin: 30px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20vh;
+    transform: scale(1.5);
+    
+  }
+
+  input {
+    border-radius: 10px;
+    height: 20px;
+
+  }
+  
+  .input-group {
+    margin-bottom: 15px;
+    display: flex; /* Utilizza flexbox per allineare label e input */
+    align-items: center; /* Allinea gli elementi verticalmente */
+    flex-direction: column; /* Imposta la direzione in colonna */
+    
+  }
+  
+  label {
+    margin-bottom: 5px;
+    width: 300px; /* Larghezza fissa per i label, puoi modificare in base alle tue esigenze */
+    text-align: center; /* Allinea il testo a destra per creare spazio a sinistra */
+    color: grey;
+    
+  }
+  
+  .input-group.terms {
+    flex-direction: row; /* Imposta la direzione in riga per il gruppo "termini" */
+  }
+  
+  .input-group.terms label {
+    margin: auto;
+    text-align: center; /* Allinea il testo a sinistra per la label "termini" */
+  }
+
+  .input-group.horizontal {
+    
+    flex-direction: row; /* Imposta la direzione in riga per il gruppo "termini" */
+    margin-inline: 20px;
+  }
+
+ .basic-info { 
+  display: flex;
+  flex-direction: row;
+  
+  
+  }
+
+  .basic-info label {
+    display: flex;
+    justify-content: flex-end;
+    max-width: min-content;
+    margin-right: 5px;
+    
+  }
+
+  .prefer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .music-checkbox {
+    display: flex;
+    justify-content: center;
+    
+  }
+
+  .music-checkbox label {
+    display: flex;
+    justify-content: flex-start;
+    max-width: 80px;
+    margin-right: 5px;
+  }
+
+  .button {
+    border-radius: 8px;
+    font-weight: 600;
+    padding: 10px;
+  }
+
+  

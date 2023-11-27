@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="listen-music.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,900;1,100&display=swap" rel="stylesheet">
+    <title>Form e input fields</title>
+</head>
+<body>
+  <div class="wrapper">
+    <div class="main">
+      <img src="https://krosbits.in/images/musicolet_round.png" alt="logo-music-player" class="logo">
+      
+      
+        <h1 class="titolo">Benvenuto su ListenMusic</h1>
+        
+      
+          <form onsubmit="alert('FORM INVIATO')">
+            <div class="container">
+              
+              <div class="basic-info">
+
+                <div class="input-group horizontal">
+                    <label for="name">Nome:</label>
+                    <input type="text" id="name">
+                </div>
+
+                <div class="input-group horizontal">
+                  <label for="surname">Cognome:</label>
+                  <input type="text" id="surname">
+                </div>
+            </div>
+
+              <div class="input-group">
+                <label for="date">Data di nascita:</label>
+                <input type="date" id="birth">
+              </div>
+                
+              <div class="input-group">
+                <label for="telefono">Cellulare:</label>
+                <input type="number" id="telefono">
+              </div>
+
+              <div class="input-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email">
+              </div>
+            
+              <div class="input-group">
+                <label for="password">Password:</label>
+                <input type="password" id="password">
+              </div>
+
+              <div class="prefer">
+                <h2 class="semi-titolo"> Quali sono i tuoi gusti</h2>
+                <div class="music-checkbox">
+                  <label for="gender1">Rock:</label>
+                  <input type="checkbox" id="gender1">
+                </div>
+                
+                <div class="music-checkbox">
+                  <label for="gender2">Pop:</label>
+                  <input type="checkbox" id="gender2">
+                </div>
+                
+                <div class="music-checkbox">
+                  <label for="gender3">Jazz:</label>
+                  <input type="checkbox" id="gender3">
+                </div>
+                
+                <div class="music-checkbox">
+                  <label for="gender4">Elettronica:</label>
+                  <input type="checkbox" id="gender4">
+                </div>
+                
+                <div class="music-checkbox">
+                  <label for="gender5">Classica:</label>
+                  <input type="checkbox" id="gender5">
+                </div>
+                
+                <div class="music-checkbox">
+                  <label for="gender6">Reggae:</label>
+                  <input type="checkbox" id="gender6">
+                </div>
+                
+
+                  
+              </div>
+            
+              <div class="input-group terms">
+                <input type="radio" id="terms">
+                <label for="terms">Accetto i termini e le condizioni</label>
+
+              </div>
+
+              
+              <button class="button" type="submit">INVIA</button>
+
+            </div>
+          </form>
+    
+      
+        
+
+    </div>
+    
+  </div> 
+    
+</body>
+</html>
